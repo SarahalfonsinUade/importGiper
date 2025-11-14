@@ -90,6 +90,10 @@ body {
     cursor: pointer;
     font-weight: bold;
 }
+.button-catalog {
+    color: var(--text-color);
+    text-decoration: none;
+}
 
 .product-title {
     text-align: center;
@@ -484,7 +488,7 @@ body {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 550px) {
     .hero-image {
         width: 100%;
     }
